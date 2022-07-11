@@ -14,9 +14,13 @@
             //..........................................
             //ReverseNumber Program
 
-            Console.Write("Please enter a number: ");
-            int number = Convert.ToInt32(Console.ReadLine());
-            ReverseNumber.MakeItReverse(number);
+            //Console.Write("Please enter a number: ");
+            //int number = Convert.ToInt32(Console.ReadLine());
+            //ReverseNumber.MakeItReverse(number);
+            //Console.ReadLine();
+
+            //Palindrome Program
+            Palindrome.FindPalindrome();
             Console.ReadLine();
         }
     }
