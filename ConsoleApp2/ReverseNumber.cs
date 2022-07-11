@@ -9,7 +9,7 @@ namespace ConsoleApp2
     internal class ReverseNumber
     {
         //Method to reverse the input number
-        public static void MakeItReverse(int number)
+        public static int MakeItReverse(int number)
         {
             int remainder = 0, reverse = 0;
             while (number != 0) //Condition for while loop
@@ -19,7 +19,10 @@ namespace ConsoleApp2
                 number = number / 10;
             }
             //To show the reverse number
+          
             Console.WriteLine("After Reverse: {0} ", reverse);
+            return reverse;
         }
+
     }
 }

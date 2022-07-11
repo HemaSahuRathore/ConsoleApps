@@ -21,6 +21,16 @@
             //ReverseNumber.MakeItReverse(number);
             //Console.ReadLine();
 
+
+            //Console.Write("Please enter a number: ");
+            //int number = Convert.ToInt32(Console.ReadLine());
+            //ReverseNumber.MakeItReverse(number);
+            //Console.ReadLine();
+
+            //Palindrome Program
+            // Palindrome.FindPalindrome();
+            //Console.ReadLine();
+
             Console.WriteLine("Please select from Below: \n1.Human \n2.Reverse Number \n3.Palindrome");
             int option = Convert.ToInt32(Console.ReadLine());
 
@@ -45,10 +55,6 @@
                     ReverseNumber.MakeItReverse(number1);
                     Console.ReadLine();
                     break;
-
-              
-                  
-                   
 
             }
 
