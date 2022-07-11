@@ -31,7 +31,7 @@
             // Palindrome.FindPalindrome();
             //Console.ReadLine();
 
-            Console.WriteLine("Please select from Below: \n1.Human \n2.Reverse Number \n3.Palindrome");
+            Console.WriteLine("Please select from Below: \n1.Human \n2.Reverse Number \n3.Palindrome \n4.Fibonacci Series");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option) 
@@ -49,13 +49,18 @@
                     ReverseNumber.MakeItReverse(number);
                     break;
 
-                default:
-                    Console.Write("Please enter a number: ");
-                    int number1 = Convert.ToInt32(Console.ReadLine());
-                    ReverseNumber.MakeItReverse(number1);
+               case 3:
+                    //Console.Write("Please enter a number: ");
+                    //int number1 = Convert.ToInt32(Console.ReadLine());
+                    Palindrome.FindPalindrome();
                     Console.ReadLine();
                     break;
 
+                case 4:
+                    Console.Write("Please enter a number: ");
+                    int numOfSeries = Convert.ToInt32(Console.ReadLine());
+                    Fibonacci.findSeries(numOfSeries);
+                    break;
             }
 
 
